@@ -1,0 +1,12 @@
+---
+layout: layout.njk
+---
+
+{{ content | safe }}
+
+{% for caseStudy in collections["case-study"] | sort(false, false, "data.navOrder") %}
+<article>
+  <h2><a href="{{ caseStudy.url }}">{{ caseStudy.data.title }}</a></h2>
+  <p>{{ caseStudy.data.excerpt }}</p>
+</article>
+{% endfor %}

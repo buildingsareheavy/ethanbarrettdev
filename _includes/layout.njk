@@ -12,7 +12,7 @@
         <nav>
             <ul>
                {% for page in collections.page | sort(false, false, "data.navOrder") %} 
-               <li><a href="{{ page.data.permalink }}">{{ page.data.title }}</a></li>
+               <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
                {% endfor %}
             </ul>
         </nav>
