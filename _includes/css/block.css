@@ -1,0 +1,14 @@
+#top-nav {
+  border-bottom: var(--border-width) solid var(--text);
+  ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+}
+
+#footer {
+  border-top: var(--border-width) solid var(--text);
+  text-align: center;
+  margin-top: var(--gap);
+}

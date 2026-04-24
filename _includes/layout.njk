@@ -16,24 +16,28 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          {% for item in collections.page | sort(false, false, "data.navOrder") %}
-            <li>
-              <a href="{{ item.url }}"
-                 {% if item.url == page.url %}aria-current="page"{% endif %}>{{ item.data.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>{{ title }}</h1>
-      {{ content | safe }}
-    </main>
-    <footer>
-      Copyright ©{{ site.year }}
-    </footer>
+    <div class="page-container">
+      <header id="top-nav">
+        <nav>
+          <ul role="list">
+            {% for item in collections.page | sort(false, false, "data.navOrder") %}
+              <li>
+                <a href="{{ item.url }}"
+                   {% if item.url == page.url %}aria-current="page"{% endif %}>{{ item.data.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+      </main>
+      <div id="footer">
+        <footer>
+          Copyright ©{{ site.year }}
+        </footer>
+      </div>
+    </div>
   </body>
 </html>

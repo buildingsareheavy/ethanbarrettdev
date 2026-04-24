@@ -34,7 +34,7 @@ WCAG audits and remediation, combining manual testing with automated tools.
 
 Custom themes and plugins, ACF-based templating, and minimal reliance on third-party plugins.
 
-### Content & Systems
+### Content and Systems
 
 Content modeling, migrations, and structuring content-heavy sites for clarity and long-term maintainability.
 

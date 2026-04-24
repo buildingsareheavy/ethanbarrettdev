@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Offbit Regular";
+  src: url("/assets/fonts/offbit-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Offbit Bold";
+  src: url("/assets/fonts/offbit-bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Offbit Regular", sans-serif;
+}
