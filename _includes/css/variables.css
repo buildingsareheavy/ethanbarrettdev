@@ -1,7 +1,9 @@
 :root {
   --bg: #ffffff;
   --text: #000;
-  --divider: #d4d4d4;
+  --shadow: #d4d4d4;
+  --success: #aee6b0;
+  --error: #ffc2d8;
   --spacing: 1rem;
   --border-width: 1px;
   --border-radius: 0.5rem;
