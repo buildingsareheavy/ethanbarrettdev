@@ -6,7 +6,7 @@ navOrder: 1
 
 I'm a front-end developer focused on accessibility, usability, and building things that last.
 
-Very early in my career, a mentor gave me a copy of _Heydon Pickering's Inclusive Design Patterns_. It helped me think critically about accessibility and design decisions, and about why things are structured the way they are, not just whether they "work." That distinction has greatly shaped how I think about development.
+Very early in my career, a mentor gave me a copy of Heydon Pickering's _Inclusive Design Patterns_. It helped me think critically about accessibility and design decisions, and about why things are structured the way they are, not just whether they "work." That distinction has greatly shaped how I think about development, and continues to inform how I refine my work over time.
 
 ## How I Work
 
@@ -18,28 +18,60 @@ I spend a significant amount of time planning and defining structure up front be
 
 ## Core Competencies
 
+<div class="card-container">
+
+<div class="card">
+
 ### HTML
 
-Semantic structure, accessible markup, and knowing when (and when not) to use ARIA.
+- Semantic structure
+- Accessible markup
+- Knowing when (and when not) to use ARIA
+
+</div>
+
+<div class="card">
 
 ### CSS
 
-Working with the cascade, using progressive enhancement, and a CSS-first approach to interactions.
+- Working with the cascade
+- Using progressive enhancement
+- CSS-first approach to interactions
+
+</div>
+
+<div class="card">
 
 ### Accessibility
 
-WCAG audits and remediation, combining manual testing with automated tools.
+- WCAG audits and remediation
+- Combining manual testing with automated tools
+- Web and document (PDF)
 
-### Wordpress
+</div>
 
-Custom themes and plugins, ACF-based templating, and minimal reliance on third-party plugins.
+<div class="card">
+
+### WordPress
+
+- Custom themes and plugins
+- ACF-based templating
+- Minimal reliance on third-party plugins
+
+</div>
+
+<div class="card">
 
 ### Content and Systems
 
 Content modeling, migrations, and structuring content-heavy sites for clarity and long-term maintainability.
 
-## Context
+</div>
 
-I’m based in Denver, Colorado, where I’ve also been involved in local cultural and arts organizations focused on critical discourse and experimental media. I’ve served on the board of Denver Digerati and was Vice President of Tilt West, working with communities that explore how culture and information are structured, presented, and shared.
+</div>
+
+## Who I Am
+
+I’m based in Denver, Colorado, where I’ve also been involved in local cultural and arts organizations focused on critical discourse and experimental media. I’ve served on the board of [Denver Digerati](https://denverdigerati.org/) and was Vice President of [Tilt West](https://tiltwest.org/), working with communities that explore how culture and information are structured, presented, and shared.
 
 Outside of development, I’m also interested in music and DJing, particularly in how cataloging, history, and archival systems shape how people discover and engage with media.

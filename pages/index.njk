@@ -8,24 +8,20 @@ navOrder: 0
   Hi, I’m Ethan Barrett, a front-end developer building websites specializing in
   accessibility, usability, and long-term maintainability.
 </p>
-
 <p>
   I currently work in local government, conducting accessibility audits and
   remediation across large, content-heavy systems. Previously, I worked in
   publishing and healthcare marketing, building and maintaining WordPress
   platforms with complex content structures.
 </p>
-
-<a class="button" href="/case-studies/">View Case Studies</a>
-<a class="button" href="/about/">About Me</a>
-
+<a class="button" href="/about/">More About Me</a>
 <h2>Case Studies</h2>
-
 {% for caseStudy in collections["case-study"] | sort(false, false, "data.navOrder") %}
-<article>
-  <h3><a href="{{ caseStudy.url }}">{{ caseStudy.data.title }}</a></h3>
-  <p>{{ caseStudy.data.subtitle }}</p>
-</article>
+  <article class="card">
+    <h3>
+      <a href="{{ caseStudy.url }}">{{ caseStudy.data.title }}</a>
+    </h3>
+    <p>{{ caseStudy.data.subtitle }}</p>
+  </article>
 {% endfor %}
-
 <a class="button" href="/case-studies/">View All Case Studies</a>

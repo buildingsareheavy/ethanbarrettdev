@@ -1,0 +1,7 @@
+.button {
+  color: currentColor;
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}

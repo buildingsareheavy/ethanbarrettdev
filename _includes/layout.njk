@@ -17,13 +17,13 @@
   </head>
   <body>
     <div class="page-container">
-      <header id="top-nav">
+      <header id="header">
         <nav>
           <ul role="list">
             {% for item in collections.page | sort(false, false, "data.navOrder") %}
               <li>
                 <a href="{{ item.url }}"
-                   {% if item.url == page.url %}aria-current="page"{% endif %}>{{ item.data.title }}</a>
+                   {% if page.url == item.url %} aria-current="page" {% elif page.url.startsWith(item.url) and item.url != "/" %} aria-current="true" {% endif %}>{{ item.data.title }}</a>
               </li>
             {% endfor %}
           </ul>
@@ -33,11 +33,9 @@
         <h1>{{ title }}</h1>
         {{ content | safe }}
       </main>
-      <div id="footer">
-        <footer>
-          Copyright ©{{ site.year }}
-        </footer>
-      </div>
+      <footer id="footer">
+        Copyright © {{ site.year }}
+      </footer>
     </div>
   </body>
 </html>
