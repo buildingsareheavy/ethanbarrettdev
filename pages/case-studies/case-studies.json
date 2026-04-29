@@ -1,3 +1,4 @@
 {
-  "override:tags": "case-study"
+  "override:tags": "case-study",
+  "layout": "layout-case-study.njk"
 }

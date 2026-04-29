@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="page-container">
-      <header id="header">
+      <header>
         <nav>
           <ul role="list">
             {% for item in collections.page | sort(false, false, "data.navOrder") %}
@@ -30,10 +30,12 @@
         </nav>
       </header>
       <main>
-        <h1>{{ title }}</h1>
+        <div class="title">
+          <h1>{{ title }}</h1>
+        </div>
         {{ content | safe }}
       </main>
-      <footer id="footer">
+      <footer>
         Copyright © {{ site.year }}
       </footer>
     </div>
