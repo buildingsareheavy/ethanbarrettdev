@@ -21,6 +21,7 @@ form.addEventListener("submit", async (e) => {
     // const response = await Promise.reject(new Error());
 
     if (response.ok) {
+      form.reset();
       form.hidden = true;
       status.textContent = `Thank you! Your message has been sent. I will be in touch soon.`;
       status.setAttribute("data-status", "success");
